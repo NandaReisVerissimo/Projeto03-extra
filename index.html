@@ -53,7 +53,7 @@
       
       <legend>Informações do mentor</legend>
       
-      <div class="input-wrapper">
+      <div class="input-wrapper-menthor">
         <label for="event-menthor">Selecione quem foi seu mentor</label>
         <input type="text" id="event-menthor">
       </div>
@@ -68,6 +68,32 @@
         <label for="event-check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
       </div>
     </fieldset>
+
+    <fieldset class="fieldset-wrapper">
+      
+      <legend>Agendando próxima mentoria</legend>
+      
+      <div class="col-3">
+      <div class="input-wrapper">
+        <label for="event-date">Data  <span>(DD/MM/AAAA)</span></label>
+        <input type="date" id="event-date">
+      </div>
+
+      <div class="input-wrapper">
+        <label for="event-begin">Das</label>
+        <input type="time" id="event-begin"></textarea>
+      </div>
+         
+      <div class="input-wrapper">
+        <label for="event-end">Até</label>
+        <input type="time" id="event-end">
+      </div>
+    </div>
+    </fieldset>
+
+    <footer>
+      <button>Salvar</button>
+    </footer>
 
   </form>
   </div>
